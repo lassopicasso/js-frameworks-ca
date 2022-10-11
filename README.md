@@ -46,7 +46,7 @@ To install and run this React project locally, you can do the following:
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Noroff-FEU-Assignments/js-frameworks-course-assignment-lassopicasso.git
+git clone git@github.com:lassopicasso/js-frameworks-ca.git
 ```
 
 2. Install the dependencies:
