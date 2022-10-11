@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Strategy Games - JS FrameWorks CA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Strategy Games](/src/img/strategy-games.jpg?raw=true "Strategy Games")
 
-## Available Scripts
+React App, with login functionality. Main assignment in Javascript Frameworks course.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This React project is styled by the CSS framework React Bootstrap. The back-end use a headless CMS plugin in WordPress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project consists of following pages:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Homepage (list of strategy games)
+- Details Page (redirected to when interacted with one of the games in homepage)
+- Contact Page (built by using React Hook Form and Yup validation)
+- Login Page (Receive a JWT authorisation if credentials is validated)
 
-### `npm test`
+The project use axios to fetch a list of games from the back-end. When one of the games is interacted, the user is redirected to a details page that display more information of the game by using its unique id.
+By using the custom hook "AuthContext" the user can login and receive a jwt that is saved in localstorage, so that user is kept logged-in when revisiting the website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+The project is built with following tech stack.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Front-end:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React.js](https://reactjs.org/)
+- [React Bootstrap](https://getbootstrap.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Back-end:
 
-### `npm run eject`
+- [WordPress](https://wordpress.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Other NPM's:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+- [Moment](https://momentjs.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Yup Validation](https://www.npmjs.com/package/yup)
+- [Axios](https://www.npmjs.com/package/axios)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To install and run this React project locally, you can do the following:
 
-## Learn More
+1. Clone the repo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone git@github.com:Noroff-FEU-Assignments/js-frameworks-course-assignment-lassopicasso.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install the dependencies:
 
-### Code Splitting
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. To run the app, run the following command:
 
-### Analyzing the Bundle Size
+```bash
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+[My Portfolio](https://lars-walderhaug.netlify.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[My LinkedIn page](https://www.linkedin.com/in/lars-walderhaug-5924a349/)
